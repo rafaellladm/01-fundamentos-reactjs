@@ -61,7 +61,7 @@ export function App() {
         <main>
           {posts.map(post => {
             return (
-              <Post 
+              <Post
                 author={post.author}
                 content={post.content}
                 publishedAt={post.publishedAt}
